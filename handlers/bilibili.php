@@ -22,7 +22,7 @@ if ($request_lang == "en") {
 <head>
     <title><?= $_lang_texts["redirecting_text"]; ?></title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <meta http-equiv="refresh" content="3.60;url=<?= $bilibili_channel_url ?>">
+    <meta http-equiv="refresh" content="6.30;url=<?= $bilibili_channel_url ?>">
 </head>
 <body>
 <center>
