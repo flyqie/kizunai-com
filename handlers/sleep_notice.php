@@ -17,7 +17,7 @@ if (!function_exists('_kizunaai_sleep_day')) {
 	// Kizuna Ai Sleep Day 
 	function _kizunaai_sleep_day() {
 		$_kizunaai_sleep_start = strtotime("2022-2-27");
-		$_kizunaai_sleep_day = round(($_kizunaai_sleep_start - time()) / 3600 / 24);
+		$_kizunaai_sleep_day = round((time() - $_kizunaai_sleep_start) / 3600 / 24);
 		/*
 		if($_kizunaai_sleep_day < 0) {
 			$_kizunaai_sleep_day = 0;
